@@ -1,7 +1,6 @@
 "use strict";
 
 
-
 document.getElementById("hesablaBtn").addEventListener("click", function() {
     var text = document.getElementById("Textarea").value;
     var sozler = text.split(" ");

@@ -4,6 +4,7 @@
 let McLaren = {
     model: '750S',
     year: 2021,
+    speed:480,
     color: 'pink'
 }
 
@@ -12,6 +13,7 @@ let McLaren = {
 let Chevrolet = {
     model: 'Dodge',
     year: 2020,
+    speed:480,
     color: 'Black'
 }
 
@@ -19,13 +21,14 @@ let Chevrolet = {
 let Bmw = {
     model: 'X6',
     year: 2023,
+    speed:480,
     color: 'Dark'
 }
 
 
 function info() {
     let carInfo = document.getElementById('carInfo');
-    carInfo.innerHTML = `model: ${this.model}<br>year: ${this.year}<br>color: ${this.color}`;
+    carInfo.innerHTML = `model: ${this.model}<br>year: ${this.year}<br>speed: ${this.speed}<br>color: ${this.color}`;
 }
 
 
